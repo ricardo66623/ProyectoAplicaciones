@@ -1,0 +1,268 @@
+body {
+  width: 100%;
+  height: 100%;
+  animation: gradient 20s infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-color: rgb(0, 102, 255);
+  }
+
+  25% {
+    background-color: rgb(0, 0, 0);
+  }
+
+  50% {
+    background-color: rgb(0, 0, 0);
+  }
+
+  100% {
+    background-color: rgb(0, 102, 255);
+  }
+}
+.wrapper{
+  display: grid;
+  place-items: center;
+}
+@import url('https://fonts.google.com/specimen/Abril+Fatface');
+
+h1 {
+  color: #000000;
+  display: block;
+  font-family: 'Abril Fatface',cursive;
+  font-size: 50px;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 27ch;
+  animation: typing 2s steps(15), blink .5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+.tituloencuesta{
+  color: #000000;
+  display: block;
+  font-family: 'Abril Fatface',cursive;
+  font-size: 50px;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 15ch;
+  animation: typing 2s steps(15), blink .5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+.fancy-titlee {
+  font-family: 'Fredoka One', cursive;
+  font-size: 40px;
+  color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+header {
+  background-color: #e978a7;
+  padding: 20px;
+  text-align: center;
+  color: #eb0000;
+
+}
+
+
+
+.container {
+  max-width: 960px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #71508d;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  animation: gradien 4s infinite;
+  border: solid black;
+}
+
+@keyframes gradien {
+  0% {
+    background-color: rgb(145, 2, 247);
+  }
+
+  25% {
+    background-color: rgb(179, 96, 238);
+  }
+
+  50% {
+    background-color: rgb(221, 178, 252);
+  }
+
+  100% {
+    background-color: rgb(149, 0, 255);
+  }
+}
+
+
+section {
+  margin-bottom: 30px;
+}
+
+
+
+p {
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  color: #333333;
+  line-height: 1.5;
+  text-align: justify;
+  background-image: linear-gradient(45deg, #a8defd, #ee59b0);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border: solid black
+}
+
+
+.contenedor {
+  width: 70%;
+  display: flex;
+}
+
+.caja_1 {
+ 
+  height: 10px;
+  width: 70px;
+}
+
+.caja_2 {
+  
+  height: 70px;
+  width: 70px;
+}
+
+.formulario {
+  background-image: linear-gradient(to right top, rgb(248, 66, 66), rgb(255, 255, 255));
+  border: solid;
+  border-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 1050px;
+  border-radius: 50px;
+
+}
+
+.h1 {
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding: 10px 0 10px 0;
+  border-bottom: 10px solid rgb(0, 0, 0);
+}
+
+.formulario form {
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+.nombre {
+  position: relative;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  margin: 30px 0;
+}
+
+.nombre {
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+input[type="submit"] {
+  width: 70%;
+  height: 30px;
+  border: 1px solid;
+  background: rgb(0, 10, 14);
+  border-radius: 25px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  outline: none;
+
+}
+
+input[type="submit"]:hover {
+  border-color: rgb(0, 0, 0);
+  transition: .5s;
+
+}
+
+img {
+  position: relative;
+}
+
+.imgcentrada {
+  position: relative;
+  left: 40%;
+  right: 40%;
+  margin: auto;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* Proporción de aspecto para videos 16:9 */
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-link {
+  display: inline-block;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+  padding: 10px 20px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.video-link:hover {
+  background-color: #ddd;
+}
